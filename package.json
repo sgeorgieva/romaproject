@@ -1,0 +1,17 @@
+{
+  "name": "romaproject",
+  "version": "1.0.0",
+  "description": "Roma project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "set \"VITE_CJS_TRACE=true\" && vite dev",
+    "build": "set \"VITE_CJS_TRACE=true\" && vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "author": "Santiya Georgieva <santiya.georgieva@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^5.0.12"
+  }
+}
